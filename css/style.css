@@ -45,3 +45,38 @@ h1
     margin-left: auto;
     display: block;
 }
+.link_div
+{
+    padding-top: 50px;
+    //background-color: #00e676;
+    min-height: 300px;
+    font-family: varela;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+
+}
+
+#color_link
+{
+    background-color: #9c27b0;
+}
+
+.pic
+{
+    width:20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#font_link
+{
+    background-color: #f44336;
+}
+
+#other_link
+{
+    //background-color:#00e676 ;
+}
+
