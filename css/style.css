@@ -1,0 +1,210 @@
+
+@font-face {
+    font-family: 'codeBold';
+    src: url('../fonts/CODE%20Bold.otf');
+}
+
+@font-face {
+    font-family: 'edmondSans';
+    src: url('../fonts/Edmondsans-Regular.otf');
+}
+
+@font-face {
+    font-family: 'varela';
+    src: url('../fonts/VarelaRound-Regular.ttf');
+}
+
+#home_section
+{
+    background-image:url("../pictures/bear.jpg");
+    background-size:cover;
+    height: 100%;
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+
+}
+
+.centered
+{
+    text-align: center;
+}
+
+#home_title
+{
+    font-family: codeBold;
+    font-size: 7rem;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(150, 150, 150, 1);
+}
+
+
+#home_catchphrase
+{
+    color: white;
+    font-family: edmondSans;
+    font-size: 3rem;
+    text-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
+}
+
+.download
+{
+    font-family:varela ;
+    color: #00e676;
+    border: 2px solid #00e676;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#landing_download
+{
+
+    font-size: 2rem;
+    margin-top:20%;
+   // margin-left: 35%;
+    //margin-right: 35%;
+    display: block;
+   // width: 10em
+
+}
+
+#details_section
+{
+    background-color: #eceff1;
+    height: 100%;
+
+}
+
+.varela
+{
+    font-family: varela;
+}
+
+#details_title
+{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #00e676;
+}
+
+#details_text
+{
+    margin-top: 30px;
+    width:50%;
+    font-size: 1.3rem;
+    margin-bottom: 100px;
+}
+.divs
+{
+    background-color: #007ba4;
+}
+
+.empty
+{
+    color: #eceff1;
+}
+
+.details_pics
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    width: 30%;
+}
+
+h5
+{
+    color: #00c853;
+    margin-top: 15px;
+}
+
+#tuto_section
+{
+    height: 100%;
+}
+
+#tuto_title
+{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #00e676;
+    margin-bottom: 60px;
+}
+
+#lower_download
+{
+    display: block;
+    text-align: center;
+    font-family: varela;
+    font-size: 1.3rem;
+    color: #00e676;
+    border: 2px solid #00e676;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#lower_download:hover
+{
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.bordered
+{
+    border-right: 2px solid #00e676;
+    height: 300px;
+}
+
+#bug_section
+{
+    background-color: #607d8b;
+    height: 100%;
+}
+
+#bug_title
+{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #00e676;
+    margin-bottom: 60px;
+}
+.white
+{
+    color: white;
+}
+
+#bug_text
+{
+font-size: 1.3rem;
+
+}
+
+#danger
+{
+    width:7%;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+footer
+{
+    background-color: #455a64;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+footer,a
+{
+    color: #00e676;
+}
+
+.inline
+{
+    display: inline;
+}
