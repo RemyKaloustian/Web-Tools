@@ -25,6 +25,12 @@ h1,h2
     font-size: 5rem;
 }
 
+
+#home_section
+{
+    background-image:url("../pics/flat1.png") ;
+    background-size: cover;
+}
 .home_div
 {
     margin-top: 8%;
@@ -33,11 +39,14 @@ h1,h2
 #h1_home
 {
     font-family: latoLight;
+    color: #F5F5F5;
 }
 
 #h2_home
 {
     font-family:varela ;
+    color: #F5F5F5;
+
 }
 
 #home_icon
@@ -49,7 +58,7 @@ h1,h2
 {
     margin-top: 500px;
     font-family: latoLight;
-    color: #8870FF;
+    color: #F5F5F5;
     text-align: center;
 }
 

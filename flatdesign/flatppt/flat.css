@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'latoLight';
+    src: url('Lato-Light_0.ttf');
+}
+
+@font-face {
+    font-family: 'open';
+    src: url('opensans-webfont.ttf');
+}
+
+
+
+body
+{
+    background-image: url("flatwall.png");
+    background-size: cover;
+}
+
+h1
+{
+    text-align: center;
+    font-family: latoLight;
+    color: #F5F5F5;
+    font-size: 4rem;
+    border-bottom: 2px solid white;
+
+}
+
+
+#hard
+{
+    color: #F5F5F5;
+    text-align: center;
+    font-family: latoLight;
+    margin-top: 100px;
+    font-size: 1.6rem;
+    margin-bottom: 100px;
+}
+
+div
+{
+    text-align: center;
+    font-family: open;
+}
+
+h4
+{
+    font-family: open;
+    color: #fa6800;
+    font-size: 2rem;
+}
+
+div p
+{
+    color: #F5F5F5;
+}
+
+#stylish
+{
+    border-left: 1px solid white;
+}
+
+div a
+{
+    background-color: #fa6800;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    color: #F5F5F5;
+}
+
+div a:hover
+{
+    color: #fa6800;
+    background-color:#F5F5F5 ;
+    transition-duration: 0.4s;
+}
