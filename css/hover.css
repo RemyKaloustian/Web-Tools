@@ -1542,6 +1542,7 @@
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
+  background-color: #53DF83;
 }
 .hvr-sweep-to-bottom:before {
   content: "";
