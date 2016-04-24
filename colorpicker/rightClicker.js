@@ -13,6 +13,7 @@ $( document ).ready(function() {
         //var str = $("#selected").data('internalid')
 
         $("#selected").html("Selected color : " + $(this).attr("data-internalid").toString());
+        $("#selected").css("color" , $(this).attr("data-internalid").toString());
 
         return false;
     });
