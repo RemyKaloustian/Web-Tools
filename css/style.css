@@ -68,8 +68,14 @@ h1
     margin-left: auto;
     margin-right: auto;
     display: block;
+    max-width: 200px
 }
+#flat_pic
+{
+    width:20%;
 
+    max-width: 200px;
+}
 #font_link
 {
     background-color: #f44336;

@@ -1677,6 +1677,7 @@
   transition-property: color;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
+  background-color: #00e676;
 }
 .hvr-bounce-to-left:before {
   content: "";
@@ -1723,6 +1724,8 @@
   transition-property: color;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
+  background-color: #00e676;
+
 }
 .hvr-bounce-to-bottom:before {
   content: "";
