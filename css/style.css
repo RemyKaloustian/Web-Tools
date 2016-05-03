@@ -41,6 +41,7 @@ h1
 #home_pic
 {
     width:10%;
+    min-width: 100px;
     margin-right: auto;
     margin-left: auto;
     display: block;
