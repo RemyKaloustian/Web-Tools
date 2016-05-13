@@ -2,6 +2,9 @@
  * Created by Rémy Kaloustian on 21/04/2016.
  */
 $( document ).ready(function() {
+
+    //$(".color_div").css("color",$(this).attr("data-internalid").toString())
+
     $('.color_div').click(function(event)
     {
         var the_id = $(this).attr("href"); //On localise la cible de l'ancre

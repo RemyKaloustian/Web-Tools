@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'varela';
-    src: url('../fonts/VarelaRound-Regular.ttf');
+    src: url('VarelaRound-Regular.ttf');
 }
 
 
@@ -34,6 +34,16 @@ h2
     font-size: 2rem;
 }
 
+.centered {
+    text-align: center;
+}
+
+#palette_switcher {
+}
+
+#palette_text {
+    font-family: varela;
+}
 #selected
 {
 
@@ -1401,4 +1411,254 @@ h2
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+
+#red2 {
+    background-color: #53DF83;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#red2:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+#red2:hover, #nice_green:focus, #nice_green:active {
+    color: #f44336;
+}
+
+#red2:hover:before, #nice_green:focus:before, #nice_green:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+#pink2 {
+    background-color: #53DF83;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#pink2:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+#pink2:hover, #nice_green:focus, #nice_green:active {
+    color: #e91e63;
+}
+
+#pink2:hover:before, #nice_green:focus:before, #nice_green:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+#purple {
+    background-color: #53DF83;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#purple:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+#purple:hover, #nice_green:focus, #nice_green:active {
+    color: #9c27b0;
+}
+
+#purple:hover:before, #nice_green:focus:before, #nice_green:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.color_div {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.color_div:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.color_div:hover:before, #nice_green:focus:before, #nice_green:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+#deep_purple:hover, #nice_green:focus, #nice_green:active {
+    color: #673ab7;
+}
+
+#indigo2:hover, #nice_green:focus, #nice_green:active {
+    color: #3f51b5;
+}
+
+#blue2:hover, #nice_green:focus, #nice_green:active {
+    color: #2196f3;
+}
+
+#light_blue:hover, #nice_green:focus, #nice_green:active {
+    color: #03a9f4;
+}
+
+#cyan2:hover, #nice_green:focus, #nice_green:active {
+    color: #aa00ff;
+}
+
+#teal2:hover, #nice_green:focus, #nice_green:active {
+    color: #009688;
+}
+
+#green2:hover, #nice_green:focus, #nice_green:active {
+    color: #4caf50;
+}
+
+#light_green:hover, #nice_green:focus, #nice_green:active {
+    color: #8bc34a;
+}
+
+#lime2:hover, #nice_green:focus, #nice_green:active {
+    color: #cddc39;
+}
+
+#yellow2:hover, #nice_green:focus, #nice_green:active {
+    color: #ffeb3b;
+}
+
+#amber2:hover, #nice_green:focus, #nice_green:active {
+    color: #ffc107;
+}
+
+#orange2:hover, #nice_green:focus, #nice_green:active {
+    color: #ff9800;
+}
+
+#deep_orange:hover, #nice_green:focus, #nice_green:active {
+    color: #ff5722;
+}
+
+#brown2:hover, #nice_green:focus, #nice_green:active {
+    color: #795548;
+}
+
+#grey2:hover, #nice_green:focus, #nice_green:active {
+    color: #9e9e9e;
+}
+
+
+
+
+
+
+
 
