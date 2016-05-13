@@ -18,6 +18,15 @@ $( document ).ready(function() {
         $("#selected").html("Selected color : " + $(this).attr("data-internalid").toString());
         $("#selected").css("color" , $(this).attr("data-internalid").toString());
 
+        //Part where we copy to clipboard...IS SHYTE
+
+        /* var $temp = "Blabla";
+         $("body").append($temp);
+         $temp.val("Blablabla").select();
+         document.execCommand("copy");
+         $temp.remove();
+         console.log("copied");*/
+
         return false;
     });
 
