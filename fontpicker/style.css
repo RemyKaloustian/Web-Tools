@@ -1,0 +1,193 @@
+
+body {
+    background-color: #ecf0f1;
+    font-family: latoLight;
+    color: #607d8b;
+
+}
+
+.centered {
+
+    text-align: center;
+
+}
+
+#title {
+    font-family: proxima;
+    font-size: 8rem;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+
+    color: #607d8b;
+}
+
+#subtitle {
+    color: #607d8b;
+    font-family: latoLight;
+    font-size: 5rem;
+    margin-top: -40px;
+
+}
+
+#boss {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    width: 20%;
+}
+
+#scroll {
+    font-size: 2rem;
+    margin-top: -40px;
+    color: #607d8b;
+}
+
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.font_name {
+    font-size: 2rem;
+}
+
+.huge_title {
+    font-size: 4rem;
+}
+
+.victim_title {
+    font-size: 2rem;
+}
+
+.paragraph {
+    font-size: 1.3rem;
+}
+
+.download {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #e74c3c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.separator {
+    margin-top: 30px;
+    border-bottom: 30px solid #607d8b;
+}
+
+.edmond {
+    font-family: edmondSansRegular;
+}
+
+.edmondBold {
+    font-family: edmondSansBold;
+}
+
+.proxima {
+    font-family: proxima;
+}
+
+.ralewayLight {
+    font-family: ralewayLight;
+}
+
+.ralewayRegular {
+    font-family: ralewayRegular;
+}
+
+.ralewayBold {
+    font-family: ralewayBold;
+}
+
+.openSans {
+    font-family: openSans;
+}
+
+.latoLight {
+    font-family: latoLight;
+}
+
+.latoRegular {
+    font-family: latoRegular;
+}
+
+.latoBold {
+    font-family: latoBold;
+}
+
+.allerRegular {
+    font-family: allerRegular;
+}
+
+.allerLight {
+    font-family: allerLight;
+}
+
+.allerBold {
+    font-family: allerBold;
+}
+
+.aleoLight {
+    font-family: aleoLight;
+}
+
+.aleoRegular {
+    font-family: aleoRegular;
+}
+
+.aleoBold {
+    font-family: aleoBold;
+}
+
+.bariol {
+    font-family: bariol;
+}
+
+.mido {
+    font-family: mido;
+}
+
+.loveloLight {
+    font-family: loveloLight;
+}
+
+.loveloBlack {
+    font-family: loveloBlack;
+}
+
+.codeLight {
+    font-family: codeLight;
+}
+
+.codeBold {
+    font-family: codeBold;
+}
+
+.chunkfive {
+    font-family: chunkfive;
+}
+
+.sintonyBold {
+    font-family: sintonyBold;
+}
+
+.sintonyRegular {
+    font-family: sintonyRegular;
+}
+
+.roboto {
+    font-family: roboto;
+}
+
+.varela {
+    font-family: varela;
+}
+
+
