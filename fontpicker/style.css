@@ -13,14 +13,9 @@ body {
 }
 
 #title {
-    font-family: proxima;
-    font-size: 8rem;
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-    display: table;
-
+    font-size: 3rem;
     color: #607d8b;
+    border-bottom: solid 1px #f04124;
 }
 
 #subtitle {
@@ -190,4 +185,27 @@ body {
     font-family: varela;
 }
 
+#fonts_list {
+    max-height: 100%;
+    overflow-y: scroll;
+    padding-top: 20px;
+}
 
+#content_div {
+    position: relative;
+    width: 70%;
+    margin-left: 5%;
+}
+
+#huge_title {
+    font-size: 4rem;
+
+}
+
+#victim_title {
+    font-size: 2rem;
+}
+
+#text_title {
+    font-size: 1.3rem;
+}
