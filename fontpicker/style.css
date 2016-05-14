@@ -62,14 +62,19 @@ body {
     font-size: 1.3rem;
 }
 
-.download {
+#download {
     font-size: 1.5rem;
     text-decoration: none;
-    color: #e74c3c;
+    color: #647687;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    min-width: 30%;
+}
+
+#download:hover {
+    color: #F5F5F5;
 }
 
 .separator {
@@ -189,6 +194,8 @@ body {
     max-height: 100%;
     overflow-y: scroll;
     padding-top: 20px;
+
+    color: #607d8b;
 }
 
 #content_div {
@@ -199,13 +206,26 @@ body {
 
 #huge_title {
     font-size: 4rem;
+    color: #647687;
 
 }
 
 #victim_title {
     font-size: 2rem;
+    color: #647687;
+
 }
 
 #text_title {
     font-size: 1.3rem;
+    color: #647687;
+
+}
+
+.font_item {
+    position: relative;
+    width: 100%;
+    font-size: 1.2rem;
+    padding-left: 5px;
+
 }
