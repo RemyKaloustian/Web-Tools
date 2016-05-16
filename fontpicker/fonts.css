@@ -133,6 +133,21 @@
     src: url(fonts/VarelaRound-Regular.ttf);
 }
 
+@font-face {
+    font-family: gothamRegular;
+    src: url(fonts/Gotham-Medium.ttf);
+}
+
+@font-face {
+    font-family: gothamBold;
+    src: url(fonts/Gotham-Bold_0.otf);
+}
+
+@font-face {
+    font-family: gothamLight;
+    src: url(fonts/Gotham-Light_0.otf);
+}
+
 
 
 

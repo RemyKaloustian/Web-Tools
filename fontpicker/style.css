@@ -190,6 +190,18 @@ body {
     font-family: varela;
 }
 
+.gothamRegular {
+    font-family: gothamRegular;
+}
+
+.gothamBold {
+    font-family: gothamBold;
+}
+
+.gothamLight {
+    font-family: gothamLight;
+}
+
 #fonts_list {
     max-height: 100%;
     overflow-y: scroll;
