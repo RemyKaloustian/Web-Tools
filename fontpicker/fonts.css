@@ -145,12 +145,78 @@
 
 @font-face {
     font-family: gothamLight;
+    src: url(fonts/Campton-LightDEMO.otf);
+}
+
+@font-face {
+    font-family: camptonBold;
+    src: url(fonts/Campton-BoldDEMO.otf);
+}
+
+@font-face {
+    font-family: camptonLight;
     src: url(fonts/Gotham-Light_0.otf);
 }
 
+@font-face {
+    font-family: gen;
+    src: url(fonts/Gen-Light.otf);
+}
 
+@font-face {
+    font-family: moonBold;
+    src: url(fonts/Moon_Bold.otf);
+}
 
+@font-face {
+    font-family: moonLight;
+    src: url(fonts/Moon_Light.otf);
+}
 
+@font-face {
+    font-family: nowBold;
+    src: url(fonts/Now-Bold.otf);
+}
+
+@font-face {
+    font-family: nowRegular;
+    src: url(fonts/Now-Regular.otf);
+}
+
+@font-face {
+    font-family: nowLight;
+    src: url(fonts/Now-Light.otf);
+}
+
+@font-face {
+    font-family: quicksandBold;
+    src: url(fonts/Quicksand-Bold.otf);
+}
+
+@font-face {
+    font-family: quicksandRegular;
+    src: url(fonts/Quicksand-Regular.otf);
+}
+
+@font-face {
+    font-family: quicksandLight;
+    src: url(fonts/Quicksand-Light.otf);
+}
+
+@font-face {
+    font-family: zonaproBold;
+    src: url(fonts/ZonaPro-Bold.otf);
+}
+
+@font-face {
+    font-family: zonaproThin;
+    src: url(fonts/ZonaPro-Thin.otf);
+}
+
+@font-face {
+    font-family: simplifica;
+    src: url(fonts/SIMPLIFICA_Typeface.ttf);
+}
 
 
 

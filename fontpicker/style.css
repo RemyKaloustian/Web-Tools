@@ -202,6 +202,62 @@ body {
     font-family: gothamLight;
 }
 
+.camptonBold {
+    font-family: camptonBold;
+}
+
+.camptonLight {
+    font-family: camptonLight;
+}
+
+.gen {
+    font-family: gen;
+}
+
+.moonBold {
+    font-family: moonBold;
+}
+
+.moonLight {
+    font-family: moonLight;
+}
+
+.nowBold {
+    font-family: nowBold;
+}
+
+.nowRegular {
+    font-family: nowRegular;
+}
+
+.nowLight {
+    font-family: nowLight;
+}
+
+.quicksandBold {
+    font-family: quicksandBold;
+}
+
+.quicksandRegular {
+    font-family: quicksandRegular;
+}
+
+.quicksandLight {
+    font-family: quicksandLight;
+}
+
+.zonaproBold {
+    font-family: zonaproBold;
+}
+
+.zonaproThin {
+    font-family: zonaproThin;
+}
+
+.simplifica {
+    font-family: simplifica;
+}
+
 #fonts_list {
     max-height: 100%;
     overflow-y: scroll;
