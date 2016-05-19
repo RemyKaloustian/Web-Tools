@@ -3,13 +3,25 @@
  */
 $(document).ready(function () {
 
-    //$(".color_div").css("color",$(this).attr("data-internalid").toString())
 
+    //Managing the text font size according to the width
+    if ($(window).width() < 1800) {
+        $("#text_title").css("font-size", 19);
+
+    }
+
+    if ($(window).width() < 1600) {
+        $("#text_title").css("font-size", 16);
+
+    }
+
+
+    //Changing on click
     $('.font_item').click(function (event) {
+        //Getting the font name
         var fontName = $(this).attr("data-font").toString();
 
-        // var downloadName = $(this).attr("data-load").toString();
-
+        //Setting the font to the selected font
         $("#content_div").fadeOut("slow", function () {
             $("#huge_title").css("fontFamily", fontName);
             $("#victim_title").css("fontFamily", fontName);
