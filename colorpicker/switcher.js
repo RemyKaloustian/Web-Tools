@@ -4,9 +4,22 @@
 
 
 $(document).ready(function () {
+
+
     var palette = "mobile";
 
     $("#desktop_section").css("display", "none");
+
+    $(".color_div").hover(function () {
+        $(this).css("color", $(this).attr("data-internalid").toString());
+
+    });
+
+    $(".color_div").mouseleave(function () {
+        $(this).css("color", "#f5f5f5");
+        $(this).css("backgroundColor", $(this).attr("data-internalid").toString());
+
+    });
 
     //$(".color_div").css("backgroundColor",$(".color_div").attr("data-internalid").toString());
 
