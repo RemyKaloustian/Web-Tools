@@ -1,9 +1,10 @@
 /**
  * Created by Rémy Kaloustian on 21/04/2016.
  */
-$( document ).ready(function() {
 
-    //$(".color_div").css("color",$(this).attr("data-internalid").toString())
+///Is used to scroll to top when a color is clicked
+
+$(document).ready(function () {
 
     $('.color_div').click(function(event)
     {
@@ -13,7 +14,6 @@ $( document ).ready(function() {
             {
                 scrollTop:$(the_id).offset().top
             }, 'slow');
-        //var str = $("#selected").data('internalid')
 
         $("#selected").html("Selected color : " + $(this).attr("data-internalid").toString());
         $("#selected").css("color" , $(this).attr("data-internalid").toString());
