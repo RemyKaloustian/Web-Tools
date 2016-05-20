@@ -3,6 +3,24 @@
  */
 $(document).ready(function () {
 
+    $('.font_item').hover(function (event) {
+        $(this).animate(
+            {
+                'padding-left': "50px",
+            }, 300, function () {
+                //$(this).css("padding-left", "50px");
+            });
+    });
+
+    $('.font_item').mouseleave(function (event) {
+        $(this).animate(
+            {
+                'padding-left': "5px",
+            }, 60, function () {
+                //$(this).css("padding-left", "5px");
+            });
+    });
+
 
     //Managing the text font size according to the width
     if ($(window).width() < 1800) {
@@ -14,7 +32,6 @@ $(document).ready(function () {
         $("#text_title").css("font-size", 16);
 
     }
-
 
     //Changing on click
     $('.font_item').click(function (event) {
@@ -29,13 +46,11 @@ $(document).ready(function () {
 
             $("#download").css("fontFamily", fontName);
             $("#download").text("Download " + $(event.target).text());
-            $("#download").attr("href", "fonts/" + $(event.target).attr("data-load").toString())
-
+            $("#download").attr("href", "fonts/" + $(event.target).attr("data-load").toString());
 
         });
 
         $("#content_div").fadeIn("slow", function () {
-
 
         });
 
@@ -43,5 +58,4 @@ $(document).ready(function () {
         return false;
     });
 
-
-});
+});//END OF FILE
