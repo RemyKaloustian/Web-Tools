@@ -34,6 +34,16 @@
 }
 
 @font-face {
+    font-family: openSansBold;
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: openSansLight;
+    src: url(fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
     font-family: latoLight;
     src: url(fonts/Lato-Light_0.ttf);
 }
@@ -218,8 +228,50 @@
     src: url(fonts/SIMPLIFICA_Typeface.ttf);
 }
 
+@font-face {
+    font-family: bellotaBold;
+    src: url(fonts/Bellota-Bold.otf);
+}
 
+@font-face {
+    font-family: bellotaRegular;
+    src: url(fonts/Bellota-Regular.otf);
+}
 
+@font-face {
+    font-family: bellotaLight;
+    src: url(fonts/Bellota-Light.otf);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: junctionBold;
+    src: url(fonts/Junction-bold.otf);
+}
+
+@font-face {
+    font-family: junctionRegular;
+    src: url(fonts/Junction-regular.otf);
+}
+
+@font-face {
+    font-family: junctionLight;
+    src: url(fonts/Junction-light.otf);
+}
+
+@font-face {
+    font-family: mohave;
+    src: url(fonts/Mohave.otf);
+}
+
+@font-face {
+    font-family: mohaveBold;
+    src: url(fonts/Mohave-Bold.otf);
+}
 
 
 

@@ -110,6 +110,14 @@ body {
     font-family: openSans;
 }
 
+.openSansBold {
+    font-family: openSansBold;
+}
+
+.openSansLight {
+    font-family: openSansLight;
+}
+
 .latoLight {
     font-family: latoLight;
 }
@@ -257,6 +265,50 @@ body {
 .simplifica {
     font-family: simplifica;
 }
+
+.bellotaBold {
+    font-family: bellotaBold;
+}
+
+.bellotaRegular {
+    font-family: bellotaRegular;
+}
+
+.bellotaLight {
+    font-family: bellotaLight;
+}
+
+.montserrat {
+    font-family: montserrat;
+}
+
+.junctionBold {
+    font-family: junctionBold;
+}
+
+.junctionRegular {
+    font-family: junctionRegular;
+}
+
+.junctionLight {
+    font-family: junctionLight;
+}
+
+.junctionLight {
+    font-family: junctionLight;
+}
+
+.mohave {
+    font-family: mohave;
+}
+
+.mohaveBold {
+    font-family: mohaveBold;
+}
+
+
+
+
 
 #fonts_list {
     max-height: 100%;
