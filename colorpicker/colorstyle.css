@@ -13,6 +13,9 @@
     src: url('VarelaRound-Regular.ttf');
 }
 
+#mabutton {
+    font-size: 1px;
+}
 
 h2
 {
@@ -93,8 +96,9 @@ h2
     transform: scaleX(1);
 }
 
-
-
+.value {
+    font-size: 1px;
+}
 
 
 

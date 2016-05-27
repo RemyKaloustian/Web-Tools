@@ -13,11 +13,23 @@
 
 </head>
 <body>
-
+<div id="mabutton">Momo</div>
+<button class="btn" data-clipboard-action="copy" data-clipboard-target="#mabutton">Copy</button>
     <h2 id="selected"> You select a color or what...  </h2>
+<script src="clipboard.min.js"></script>
+<script>
+    var clipboard = new Clipboard('.color_div');
 
+    clipboard.on('success', function (e) {
+        console.log(e);
+    });
 
-    <div class="centered">
+    clipboard.on('error', function (e) {
+        console.log(e);
+    });
+</script>
+
+<div class="centered">
         <p id="palette_text">Foreground text color & Mobile</p>
 
         <div class="switch" id="palette_switcher">
@@ -29,10 +41,28 @@
 
     <br>
     <section id="mobile_section">
-        <div href="#selected" class="large-2 columns varela color_div" id="lime" data-internalid="#a4c400">LIME</div>
+
+        <p id="lime_value" class="value">#khdkfvj</p>
+
+        <!--<button href="#selected" class="btn large-2 columns varela color_div"  data-clipboard-action="copy" data-clipboard-target="#lime_value">Copy</button> -->
+        <div href="#selected" class="btn large-2 columns varela color_div" id="lime" data-internalid="#a4c400"
+             data-clipboard-action="copy" data-clipboard-target="#lime_value">LIME
+        </div>
         <div href="#selected" class="large-2 columns varela color_div" id="green" data-internalid="#60a917">GREEN</div>
         <div href="#selected" class="large-2 columns varela color_div" id="emerald" data-internalid="#088a00">EMERALD
         </div>
+
+        <script>
+            var clipboard = new Clipboard('.color_div');
+
+            clipboard.on('success', function (e) {
+                console.log(e);
+            });
+
+            clipboard.on('error', function (e) {
+                console.log(e);
+            });
+        </script>
         <div href="#selected" class="large-2 columns varela color_div" id="teal" data-internalid="#00aba9">TEAL</div>
         <div href="#selected" class="large-2 columns varela color_div" id="cyan" data-internalid="#1ba1e2">CYAN</div>
         <div href="#selected" class="large-2 columns varela color_div" id="cobalt" data-internalid="#0050ef">COBALT
