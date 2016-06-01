@@ -9,25 +9,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
    <script src="rightClicker.js"></script>
     <script src="switcher.js"></script>
+    <script src="clipboard.min.js"></script>
+    <script src="toClipboard.js"></script>
 
 
 </head>
 <body>
-<div id="mabutton">Momo</div>
-<button class="btn" data-clipboard-action="copy" data-clipboard-target="#mabutton">Copy</button>
     <h2 id="selected"> You select a color or what...  </h2>
-<script src="clipboard.min.js"></script>
-<script>
-    var clipboard = new Clipboard('.color_div');
 
-    clipboard.on('success', function (e) {
-        console.log(e);
-    });
-
-    clipboard.on('error', function (e) {
-        console.log(e);
-    });
-</script>
 
 <div class="centered">
         <p id="palette_text">Foreground text color & Mobile</p>
@@ -42,27 +31,23 @@
     <br>
     <section id="mobile_section">
 
-        <p id="lime_value" class="value">#khdkfvj</p>
-
-        <!--<button href="#selected" class="btn large-2 columns varela color_div"  data-clipboard-action="copy" data-clipboard-target="#lime_value">Copy</button> -->
-        <div href="#selected" class="btn large-2 columns varela color_div" id="lime" data-internalid="#a4c400"
-             data-clipboard-action="copy" data-clipboard-target="#lime_value">LIME
+        <!-- 1. Define some markup -->
+        <div class="main large-2 columns varela  hvr-sweep-to-right " data-text="#88" data-internalid="#ff6633">Copy
         </div>
+
+        <div class="large-2 columns varela color_div" id="lime" data-text="fucku" data-internalid="#a4c400">LIME</div>
+        <script>
+            var clipboard = new Clipboard('#lime', {
+                text: function () {
+                    return "a4c400";
+                }
+            });
+        </script>
         <div href="#selected" class="large-2 columns varela color_div" id="green" data-internalid="#60a917">GREEN</div>
         <div href="#selected" class="large-2 columns varela color_div" id="emerald" data-internalid="#088a00">EMERALD
         </div>
 
-        <script>
-            var clipboard = new Clipboard('.color_div');
 
-            clipboard.on('success', function (e) {
-                console.log(e);
-            });
-
-            clipboard.on('error', function (e) {
-                console.log(e);
-            });
-        </script>
         <div href="#selected" class="large-2 columns varela color_div" id="teal" data-internalid="#00aba9">TEAL</div>
         <div href="#selected" class="large-2 columns varela color_div" id="cyan" data-internalid="#1ba1e2">CYAN</div>
         <div href="#selected" class="large-2 columns varela color_div" id="cobalt" data-internalid="#0050ef">COBALT
