@@ -6,6 +6,7 @@
 
 $(document).ready(function () {
 
+    //Array containing the ids of the color divs...
     var colors = ["#lime", "#green", "#emerald", "#teal", "#cyan", "#cobalt", "#indigo", "#violet", "#pink",
         "#magenta", "#crimson", "#red", "#orange", "#amber", "#yellow", "#brown", "#olive", "#steel", "#green",
         "#mauve", "#sienna", "#grey", "#blue_grey", "#light_grey", "#dark_grey", "#thin_grey", "#solid_grey",
@@ -20,26 +21,14 @@ $(document).ready(function () {
 
     ];
 
+    //..and it's used right there to instantiate a clipboard for all the colors !
     colors.forEach(function (item) {
-        var clipboard = new Clipboard(item, {
-            text: function () {
+        var clipboard = new Clipboard(item,
+            {
+                text: function () {
                 return $(item).data("internalid");
             }
         });
     });
 
-
-    /*var clipboard = new Clipboard('.main', {
-        text: function () {
-     return $(".main").data("internalid");
-        }
-    });
-
-
-     var clipboard2 = new Clipboard('#lime', {
-     text: function () {
-     return $("#lime").data("text");
-     }
-     });*/
-
-});
+});//END OF FILE

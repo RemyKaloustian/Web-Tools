@@ -8,11 +8,7 @@
 $(document).ready(function () {
 
 
-    /* $(".main").each(function (index) {
-        $(this).css("backgroundColor", $(this).attr("data-internalid").toString());
 
-    });
-     */
 //Default palette is mobile
     var palette = "mobile";
 
