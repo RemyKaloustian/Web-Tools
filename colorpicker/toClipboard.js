@@ -6,14 +6,33 @@
 
 $(document).ready(function () {
 
+    var colors = ["#lime", "#green", "#emerald", "#teal", "#cyan", "#cobalt", "#indigo", "#violet", "#pink",
+        "#magenta", "#crimson", "#red", "#orange", "#amber", "#yellow", "#brown", "#olive", "#steel", "#green",
+        "#mauve", "#sienna", "#grey", "#blue_grey", "#light_grey", "#dark_grey", "#thin_grey", "#solid_grey",
+        "#dat_violet", "#midnight_blue", "#soft_orange", "#nice_green",
 
-    $(".main").css("backgroundColor", $(".main").attr("data-internalid").toString());
+    ];
+
+    colors.forEach(function (item) {
+        var clipboard = new Clipboard(item, {
+            text: function () {
+                return $(item).data("internalid");
+            }
+        });
+    });
 
 
-    var clipboard = new Clipboard('.main', {
+    /*var clipboard = new Clipboard('.main', {
         text: function () {
-            return $(".main").data("text");
+     return $(".main").data("internalid");
         }
     });
+
+
+     var clipboard2 = new Clipboard('#lime', {
+     text: function () {
+     return $("#lime").data("text");
+     }
+     });*/
 
 });
