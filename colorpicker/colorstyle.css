@@ -13,10 +13,6 @@
     src: url('VarelaRound-Regular.ttf');
 }
 
-#mabutton {
-    font-size: 1px;
-}
-
 h2
 {
     color: #1abc9c;
@@ -46,13 +42,16 @@ h2
 
 #palette_text {
     font-family: varela;
-}
-#selected
-{
-
+    font-size: 1.2rem;
+    margin-top: 20px;
 }
 
+.main {
+    min-height: 200px;
+    color: white;
+    font-size: 1.4rem;
 
+}
 
 .color_div {
     display: inline-block;
