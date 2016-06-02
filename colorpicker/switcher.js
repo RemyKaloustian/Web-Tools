@@ -8,11 +8,11 @@
 $(document).ready(function () {
 
 
-    $(".main").each(function (index) {
+    /* $(".main").each(function (index) {
         $(this).css("backgroundColor", $(this).attr("data-internalid").toString());
 
     });
-
+     */
 //Default palette is mobile
     var palette = "mobile";
 
@@ -20,21 +20,21 @@ $(document).ready(function () {
     $("#desktop_section").css("display", "none");
 
     //On hover, the color is the data-internalid
-    $(".color_div").hover(function () {
+    $(".main").hover(function () {
         $(this).css("color", $(this).attr("data-internalid").toString());
 
     });
 
     //On leave, we go back to the basic color and background
-    $(".color_div").mouseleave(function () {
+    $(".main").mouseleave(function () {
         $(this).css("color", "#f5f5f5");
         $(this).css("backgroundColor", $(this).attr("data-internalid").toString());
 
     });
 
 
-    //Setting the background for each color_div, using teh internalid
-    $(".color_div").each(function () {
+    //Setting the background for each color_div, using teh internalid (I leave 'teh' cuz it's funny)
+    $(".main").each(function () {
         $(this).css("backgroundColor", $(this).attr("data-internalid").toString());
     });
 
