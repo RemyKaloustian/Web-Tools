@@ -60,17 +60,21 @@
 
 @font-face {
     font-family: allerRegular;
-    src: url(fonts/Aller_Rg.ttf);
+    src: url('fonts/Aller_Rg.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Aller_Rg.ttf') format('truetype');
 }
 
 @font-face {
     font-family: allerLight;
-    src: url(fonts/Aller_Lt.ttf);
+    src: url('fonts/Aller_Lt.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Aller_Lt.ttf') format('truetype');
+
 }
 
 @font-face {
     font-family: allerBold;
-    src: url(fonts/Aller.ttf);
+    src: url('fonts/Aller.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Aller.ttf') format('truetype');
 }
 
 @font-face {
@@ -90,7 +94,8 @@
 
 @font-face {
     font-family: bariol;
-    src: url(fonts/Bariol_Regular.otf);
+    src: url(fonts/Bariol_Regular.otf),
+        url('fonts/Aller.eot?#iefix') format('embedded-opentype');
 }
 
 @font-face {
