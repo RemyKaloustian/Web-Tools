@@ -46,6 +46,11 @@ h2
     margin-top: 20px;
 }
 
+#light_grey, #thin_grey
+{
+    color: #888888;
+}
+
 .main {
     min-height: 200px;
     color: white;

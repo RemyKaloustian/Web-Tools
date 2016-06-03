@@ -23,10 +23,25 @@ $(document).ready(function () {
 
     //On leave, we go back to the basic color and background
     $(".main").mouseleave(function () {
-        $(this).css("color", "#f5f5f5");
+        if($(this).attr('id') == "light_grey" || $(this).attr('id') == "thin_grey")
+        {
+            $(this).css("color", "#888888");
+
+        }
+
+        else
+        {
+            $(this).css("color", "#f5f5f5");
+
+        }
         $(this).css("backgroundColor", $(this).attr("data-internalid").toString());
 
     });
+
+
+
+
+
 
 
     //Setting the background for each color_div, using teh internalid (I leave 'teh' cuz it's funny)
