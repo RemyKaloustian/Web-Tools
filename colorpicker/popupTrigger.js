@@ -8,19 +8,28 @@ $(document).ready(function () {
 
 
 
-    var _isPopup;
 
     $(".main").click(function()
     {
         $("#popup").css("display", "block");
-        _isPopup = true;
+
+        $("#popup").animate(
+            {
+                'margin-left': "15%",
+            }, 300, function () {
+                //$(this).css("padding-left", "50px");
+            });
 
         console.log("main clicked");
 
         setTimeout(function()
         {
+            $("#popup").css("margin-left", "0px");
             $("#popup").fadeOut();
+
         },1000);
+
+
 
     });
 
@@ -28,7 +37,7 @@ $(document).ready(function () {
     $("#popup").click(function()
     {
         $("#popup").css("display", "none");
-        _isPopup = true;
+        $("#popup").css("margin-left", "0px");
 
         console.log("popup clicked");
 
