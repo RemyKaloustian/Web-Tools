@@ -2,13 +2,12 @@
  * Created by Rémy Kaloustian on 01/06/2016.
  */
 
-//Is to manage the popup
+//Is used to manage the popup
 
 $(document).ready(function () {
 
 
-
-
+//On click on a color, displaying the popup
     $(".main").click(function()
     {
         $("#popup").css("display", "block");
@@ -17,11 +16,11 @@ $(document).ready(function () {
             {
                 'margin-left': "15%",
             }, 300, function () {
-                //$(this).css("padding-left", "50px");
             });
 
         console.log("main clicked");
 
+        //Removing the popup
         setTimeout(function()
         {
             $("#popup").css("margin-left", "0px");
@@ -34,6 +33,7 @@ $(document).ready(function () {
     });
 
 
+    //removing the popup when clicking on it
     $("#popup").click(function()
     {
         $("#popup").css("display", "none");
@@ -42,7 +42,6 @@ $(document).ready(function () {
         console.log("popup clicked");
 
     });
-
 
 
 });//END OF FILE
