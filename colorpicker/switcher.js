@@ -7,8 +7,6 @@
 
 $(document).ready(function () {
 
-
-
 //Default palette is mobile
     var palette = "mobile";
 
@@ -23,6 +21,8 @@ $(document).ready(function () {
 
     //On leave, we go back to the basic color and background
     $(".main").mouseleave(function () {
+
+        //Cuz thin and light grey are less visible
         if($(this).attr('id') == "light_grey" || $(this).attr('id') == "thin_grey")
         {
             $(this).css("color", "#888888");
@@ -37,11 +37,6 @@ $(document).ready(function () {
         $(this).css("backgroundColor", $(this).attr("data-internalid").toString());
 
     });
-
-
-
-
-
 
 
     //Setting the background for each color_div, using teh internalid (I leave 'teh' cuz it's funny)

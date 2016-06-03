@@ -21,6 +21,18 @@ h2
     font-size: 4rem;
 }
 
+#popup
+{
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    z-index: 999;
+    background-color: #1abc9c;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .varela
 {
     font-family: varela;
