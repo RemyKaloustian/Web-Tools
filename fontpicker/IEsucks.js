@@ -6,7 +6,7 @@
 
 //Is used to warn the user that Internet Explorer needs thousands of CSS lines to make a font work ;)
 
-function msieversion()//"This website is not designed to work with Internet Explorer. We recommend using an other browser"
+function msieversion()
 {
     var ua = window.navigator.userAgent;
     var msie = ua.indexOf("MSIE ");
