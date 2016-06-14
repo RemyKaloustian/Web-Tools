@@ -12,8 +12,4 @@ http://remykaloustian.com/tools/
 
 ### A font picker that shows the style of the font and gives a download link.
 
-## Flat Design Guidelines
-
-### A site presenting the Do's in Flat Design (...because material is overrated anyway ;).
-
 
