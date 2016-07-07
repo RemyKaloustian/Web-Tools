@@ -1724,7 +1724,7 @@
   transition-property: color;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  background-color: #27ae60;
+  background-color: #2196f3;
 
 }
 .hvr-bounce-to-bottom:before {
@@ -1735,7 +1735,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2ecc71;
+  background: #2196f3;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
